@@ -1,7 +1,25 @@
 body{
+    color:#333;
     text-align: center;
-    color:lightpink;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: arial;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+#cabecera{
+    background-color: #33A;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
+    color:white;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5em;
+}
+#cabecera #tagline
+{
+    padding:0 0 0 1em;
+    font-weight:normal;
+    font-size:0.8em
 }
 #container
 {
@@ -14,16 +32,13 @@ body{
 #container h1{
         font-size:20px
     }
-#cabecera{
-    background-color: pink;
-    color: white;
-    font-weight: bold;
-    margin: 0;
-    padding: 0.5em;
+
+#post{
+    padding: 1em;
+
 }
-#cabecera #tagline
-{
-    padding:0 0 0 1em;
-    font-weight:400;
-    font-size:.8em
+#footer{
+    background-color: 777;
+    color: white;
+    text-align: center;
 }
