@@ -38,7 +38,8 @@ body{
 
 }
 #footer{
-    background-color: 777;
+    background-color: gray;
     color: white;
     text-align: center;
+    padding: 0.5em;
 }
